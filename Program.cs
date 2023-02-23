@@ -7,8 +7,8 @@ namespace CompSci
     {
         static void Main(string[] args)
         {
-            PartOne partOne = new PartOne();
-            PartTwo partTwo = new PartTwo();
+
+            RandomThings.CountTrue();
         }
     }
 }
