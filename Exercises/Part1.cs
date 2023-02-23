@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace CompSci
 {
-    internal class PartOne
+    internal static class PartOne
     {
         public static void ProblemOne()
         {
