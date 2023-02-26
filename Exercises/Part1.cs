@@ -75,7 +75,7 @@ namespace CompSci
         public static void ProblemFive()
         {
             Console.Write("Enter your fullname: ");
-            string[] names = Console.ReadLine().ToUpper().Split(' ');
+            string[] names = Console.ReadLine()!.ToUpper().Split(' ');
             Console.WriteLine($"First name: {names[0]}");
             Console.WriteLine($"Last name: {names[1]}");
         }
